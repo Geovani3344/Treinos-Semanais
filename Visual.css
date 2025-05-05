@@ -1,0 +1,86 @@
+body{
+        background-image: url('agc.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .dias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dias button {
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    background-color: #a41380;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-family: 'Bebas+Neue', sans-serif
+  }
+  
+  .dias button:hover {
+    background-color: #d544c4;
+  }
+  
+  .treino-dia {
+    text-align: center;
+    background: #d7afcc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .exercicio {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  @media (max-width: 600px) {
+    .dias {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .dias button {
+      width: 90%;
+      font-size: 14px;
+    }
+  
+    .treino-dia {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .exercicio {
+      font-size: 14px;
+      word-wrap: break-word;
+    }
+  
+    h1 {
+      font-size: 22px;
+      padding: 10px;
+    }
+  }
+  
+  
+
+
+  
+  
+
+  
