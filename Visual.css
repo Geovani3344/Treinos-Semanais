@@ -4,10 +4,19 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        text-align: center;
       }
   
   h1 {
-    text-align: center;
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(237, 151, 208);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 24px;
+    
+
   }
   
   .dias {
