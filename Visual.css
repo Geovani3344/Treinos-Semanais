@@ -6,7 +6,6 @@ body{
         background-attachment: fixed;
         text-align: center;
       }
-  
   h1 {
     color: aliceblue;
     font-family: 'Josefin Sans', sans-serif;
@@ -19,6 +18,7 @@ body{
 
   }
   
+
   .dias {
     display: flex;
     flex-direction: column;
@@ -29,28 +29,30 @@ body{
   
   .dias button {
     padding: 10px 20px;
-    width: 200px;
+    width: 300px;
     cursor: pointer;
     border: none;
-    background-color: #a41380;
-    color: white;
+    background-color: rgb(212, 37, 154);
+    color: rgb(237, 230, 230);
     border-radius: 5px;
     font-size: 16px;
     transition: background-color 0.3s;
-    font-family: 'Bebas+Neue', sans-serif
+    font-family: 'Bebas Neue', sans-serif
   }
   
   .dias button:hover {
-    background-color: #d544c4;
+    background-color: #61285a;
   }
   
   .treino-dia {
     text-align: center;
-    background: #d7afcc;
+    background: #f4bee6;
     padding: 20px;
+    opacity: 0.9;
     border-radius: 10px;
     max-width: 400px;
     margin: auto;
+    font-family: 'Bebas neue', sans-serif;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
